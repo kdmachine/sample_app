@@ -1,0 +1,45 @@
+vi:
+  author: "Michael Hartl"
+  title: "Ứng dụng mẫu hướng dẫn Ruby on Rails" 
+  tutorial: "Hướng dẫn sử dụng Ruby on Rails"
+
+  layouts:
+    header:
+      logotext: "sample app"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      signup: "Đăng ký"
+      login: "Đăng nhập"
+    footer:
+      about: "Thông tin"
+      contact: "Liên hệ"
+      news: "Bản tin"
+      the: ""
+      by: "bởi"
+      
+  static_pages:
+    home: 
+      title: "Trang chủ"
+      welcome: "Chào mừng bạn đến với ứng dụng mẫu"
+      signup: "Đăng ký ngay!"
+      ct1: "Đây là trang chủ cho"
+      ct2: "ứng dụng mẫu"
+    help: 
+      title: "Trợ giúp"
+      page: "Trang trợ giúp Hướng dẫn về Rails"
+      link: "trang trợ giúp"
+      ct1: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại"
+      ct2: "Để nhận trợ giúp về ứng dụng mẫu này, hãy xem"
+    about: 
+      title: "Thông tin"
+      content: "Giới thiệu về Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      link: "trang thông tin"
+    contact: 
+      title: "Liên hệ"
+      content: "Liên hệ với Hướng dẫn Ruby on Rails liên hệ với ứng dụng mẫu tại "
+      link: "trang liên hê"
+
+  users:
+    signup: 
+      title: "Đăng ký"
+      content: "Đây sẽ là trang đăng ký cho người dùng mới"

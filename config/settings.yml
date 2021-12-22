@@ -1,0 +1,12 @@
+settings: 
+  link: "http://www.railstutorial.org/"
+  help: "http://www.railstutorial.org/help"
+  book: "http://www.railstutorial.org/book" 
+  news: "https://news.railstutorial.org/"
+  contact: "https://news.railstutorial.org/contact"
+  about: "https://news.railstutorial.org/about"
+  author: "https://www.michaelhartl.com/"
+  name_maximun_length: 50
+  email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+  email_maximun_length: 255
+  password_minimun: 6
