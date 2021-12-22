@@ -41,6 +41,11 @@ gem "bootsnap", require: false
 
 # Use Sass to process CSS
 # gem "sassc-rails"
+gem "config", "~> 3.1"
+
+gem "i18n", "~> 1.8", ">= 1.8.11"
+
+gem "bootstrap-sass", "3.4.1"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
