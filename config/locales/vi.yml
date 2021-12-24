@@ -40,6 +40,12 @@ vi:
       link: "trang liên hê"
 
   users:
-    signup: 
+    new: 
       title: "Đăng ký"
       content: "Đây sẽ là trang đăng ký cho người dùng mới"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khâu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+      success: "Chào mừng đến với ứng dụng mẫu!"
