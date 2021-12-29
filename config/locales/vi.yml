@@ -2,6 +2,7 @@ vi:
   author: "Michael Hartl"
   title: "Ứng dụng mẫu hướng dẫn Ruby on Rails" 
   tutorial: "Hướng dẫn sử dụng Ruby on Rails"
+  success: "Chào mừng đến ứng dụng mẫu!"
 
   layouts:
     header:
@@ -40,6 +41,14 @@ vi:
       link: "trang liên hê"
 
   users:
-    signup: 
+    new: 
       title: "Đăng ký"
       content: "Đây sẽ là trang đăng ký cho người dùng mới"
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+  error:
+    error_valid: "Hiện đang có "
+    error: "lỗi"

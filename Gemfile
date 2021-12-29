@@ -45,9 +45,13 @@ gem "config", "~> 3.1"
 
 gem "i18n", "~> 1.8", ">= 1.8.11"
 
+gem "rails-i18n"
+
 gem "bootstrap-sass", "3.4.1"
 
 gem "bcrypt", "3.1.13"
+
+gem "webpacker", github: "rails/webpacker"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
