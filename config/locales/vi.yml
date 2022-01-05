@@ -3,6 +3,7 @@ vi:
   title: "Ứng dụng mẫu hướng dẫn Ruby on Rails" 
   tutorial: "Hướng dẫn sử dụng Ruby on Rails"
   success: "Chào mừng đến ứng dụng mẫu!"
+  invalid_login: "Email/Mật khẩu không hợp lệ"
 
   layouts:
     header:
@@ -11,13 +12,20 @@ vi:
       help: "Trợ giúp"
       signup: "Đăng ký"
       login: "Đăng nhập"
+      about: "Thông tin"
+      user: "Người dùng"
+      account: "Tài khoản"
+      profile: "Thông tin cá nhân"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      login: "Đăng nhập"
     footer:
       about: "Thông tin"
       contact: "Liên hệ"
       news: "Bản tin"
       the: ""
       by: "bởi"
-      
+ 
   static_pages:
     home: 
       title: "Trang chủ"
@@ -49,6 +57,15 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
+
   error:
     error_valid: "Hiện đang có "
     error: "lỗi"
+
+  sessions:
+    new:
+      login: "Đăng nhập"
+      password: "Mật khẩu"
+      new_user: "Chưa có tài khoản?"
+      signup: "Đăng ký ngay!"
+      remember: "Ghi nhớ tôi trên máy tính này"
