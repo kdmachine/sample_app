@@ -6,7 +6,11 @@ settings:
   contact: "https://news.railstutorial.org/contact"
   about: "https://news.railstutorial.org/about"
   author: "https://www.michaelhartl.com/"
+  avatar_change: https://gravatar.com/emails
   name_maximun_length: 50
   email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
   email_maximun_length: 255
   password_minimun: 6
+  avatar_size: 80
+  profile_avatar: 50
+  page_item: 20

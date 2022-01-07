@@ -4,6 +4,15 @@ en:
   tutorial: "Ruby on Rails Tutorial"
   success: "Welcome to the Sample App!"
   invalid_login: "Invalid email/password combination"
+  updated: "Profile updated"
+  please_login: "Please login"
+  deleted: "User deleted"
+  deleting: "You sure?"
+  user_delete: "Delete"
+  name: "Name"
+  email: "Email"
+  password: "Password"
+  confirmation: "Confirmation"
 
   layouts:
     header:
@@ -57,10 +66,18 @@ en:
       password: "Password"
       confirmation: "Confirmation"
       submit: "Create my account"
+    edit:
+      title: "Edit user"
+      content: "Update your profile"
+      submit: "Save change"
+      change: "Change"
+    index:
+      title: "All users"
 
   error:
     error_valid: "The form contains"
     error: "error"
+    user.not_found: "User not found"
 
   sessions:
     new:

@@ -12,7 +12,7 @@ class User < ApplicationRecord
     uniqueness: {case_sensitive: false}
   validates :password, presence: true,
     length: {minimum: Settings.settings.password_minimun},
-    allow_nil: true, if: :password
+    allow_nil: true
   has_secure_password
 
   class << self

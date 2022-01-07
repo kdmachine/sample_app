@@ -4,6 +4,15 @@ vi:
   tutorial: "Hướng dẫn sử dụng Ruby on Rails"
   success: "Chào mừng đến ứng dụng mẫu!"
   invalid_login: "Email/Mật khẩu không hợp lệ"
+  updated: "Thông tin đã cập nhật"
+  please_login: "Vui lòng đăng nhập"
+  deleted: "Đã xóa người dùng"
+  deleting: "Bạn chắc chứ?"
+  user_delete: "Xóa"
+  name: "Tên"
+  email: "Email"
+  password: "Mật khẩu"
+  confirmation: "Xác nhận mật khẩu"
 
   layouts:
     header:
@@ -57,10 +66,18 @@ vi:
       password: "Mật khẩu"
       confirmation: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
+    edit:
+      title: "Edit user"
+      content: "Cập nhật thông tin"
+      submit: "Lưu thay đổi"
+      change: "Thay đổi"
+    index:
+      title: "Tất cả người dùng"
 
   error:
     error_valid: "Hiện đang có "
     error: "lỗi"
+    user.not_found: "Người dùng không tồn tại"
 
   sessions:
     new:
