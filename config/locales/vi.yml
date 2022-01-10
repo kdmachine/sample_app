@@ -13,6 +13,12 @@ vi:
   email: "Email"
   password: "Mật khẩu"
   confirmation: "Xác nhận mật khẩu"
+  check_email_to_activated: "Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để nhận đường dẫn kích hoạt."
+  please_check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản"
+  sign_fail: "Đăng ký thất bại"
+  avtivated_sucess: "Kích hoạt thành công"
+  invalid_avtivation_link: "Đường dẫn kích hoạt không hợp lệ"
+  activation: "Xác nhận tài khoản"
 
   layouts:
     header:
@@ -86,3 +92,9 @@ vi:
       new_user: "Chưa có tài khoản?"
       signup: "Đăng ký ngay!"
       remember_me: "Ghi nhớ trên máy tính này"
+
+  user_mailer:
+    account_activation:
+      hi: "Chào"
+      welcome: "Chào mừng bạn đến với Sample App! Nhấn vào link bên dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt:"
