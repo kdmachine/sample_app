@@ -19,6 +19,14 @@ en:
   avtivated_sucess: "Account activated!"
   invalid_avtivation_link: "Invalid activation link"
   activation: "Account activation"
+  create_password_reset: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  cant_be_empty: "Can't be empty"
+  reset_success: "Password has been reset."
+  reset_expired: "Password reset has expired."
+  activated_fail: "Activated fail"
+  password_reset: "Password reset"
+  reset_failed: "Reset failed"
 
   layouts:
     header:
@@ -92,9 +100,25 @@ en:
       new_user: "New User?"
       signup: "Sign up Now!"
       remember_me: "Remember me on this computer"
+      forgot_password: "Forgot password"
       
   user_mailer:
     account_activation:
       hi: "Hi"
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
-      activate: "Activate:"
+      activate: "Activate"
+    password_reset:
+      title: "Password reset"
+      p1: "To reset your password click the link below:"
+      p2: "This link will expire in two hours."
+      p3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  
+  password_resets:
+    edit:
+      title: "Reset password"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Update password"
+    new:
+      title: "Forgot password"
+      submit: "Submit"
