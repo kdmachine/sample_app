@@ -15,3 +15,8 @@ settings:
   profile_avatar: 50
   page_item: 20
   hours_expired: 2
+  content_maximum: 140
+  image_types: "image/jpeg,image/gif,image/png"
+  image_type: ["image/jpeg", "image/gif", "image/png"]
+  max_image_size: 5
+  resize_images: 500

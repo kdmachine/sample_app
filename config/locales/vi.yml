@@ -27,6 +27,8 @@ vi:
   activated_fail: "Kích hoạt không thành công"
   password_reset: "Đặt lại mật khẩu"
   reset_failed: "Đặt lại thất bại"
+  invalid_format: "phải là một định dạng hình ảnh hợp lệ"
+  large_size: "phải nhỏ hơn 5MB"
 
   layouts:
     header:
@@ -56,6 +58,7 @@ vi:
       signup: "Đăng ký ngay!"
       ct1: "Đây là trang chủ cho"
       ct2: "ứng dụng mẫu"
+      mf: "Nguồn cấp dữ liệu vi mô"
     help: 
       title: "Trợ giúp"
       page: "Trang trợ giúp Hướng dẫn về Rails"
@@ -87,9 +90,11 @@ vi:
       change: "Thay đổi"
     index:
       title: "Tất cả người dùng"
+    show:
+      micropost: "Bài viết"
 
   error:
-    error_valid: "Hiện đang có "
+    error_valid: "Hiện đang có %{error}"
     error: "lỗi"
     user.not_found: "Người dùng không tồn tại"
 
@@ -122,3 +127,24 @@ vi:
     new:
       title: "Quên mật khẩu"
       submit: "Xác nhận"
+  
+  shared:
+    micropost_form:
+      submit: "Bài đăng"
+      placeholder: "Soạn bài vi mô mới ..."
+    user_info:
+      view: "Xem hồ sơ của tôi"
+      micropost: "Bài viết"
+  
+  microposts:
+    micropost:
+      post: "Đăng %{time} trước."
+      sure: "Bạn có chắc chắn không?"
+      delete: "Xóa"
+    create:
+      success: "Micropost được tạo!"
+    destroy:
+      success: "Micropost đã xóa"
+      fail: "Xóa thất bại"
+    correct_user:
+      invalid: "Micropost không tồn tại"

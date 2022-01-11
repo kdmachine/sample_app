@@ -27,6 +27,8 @@ en:
   activated_fail: "Activated fail"
   password_reset: "Password reset"
   reset_failed: "Reset failed"
+  invalid_format: "must be a valid image format"
+  large_size: "should be less than 5MB"
 
   layouts:
     header:
@@ -56,6 +58,7 @@ en:
       signup: "Sign up now!"
       ct1: "This is the homepage for the"
       ct2: "sample application"
+      mf: "Micropost Feed"
     help: 
       title: "Help"
       page: "Rails Tutorial help page"
@@ -87,9 +90,11 @@ en:
       change: "Change"
     index:
       title: "All users"
+    show:
+      micropost: "Microposts"
 
   error:
-    error_valid: "The form contains"
+    error_valid: "The form contains %{error}"
     error: "error"
     user.not_found: "User not found"
 
@@ -122,3 +127,24 @@ en:
     new:
       title: "Forgot password"
       submit: "Submit"
+  
+  shared:
+    micropost_form:
+      submit: "Post"
+      placeholder: "Compose new micropost..."
+    user_info:
+      view: "view my profile"
+      micropost: "micropost"
+
+  microposts:
+    micropost:
+      post: "Posted %{time} ago."
+      sure: "You sure?"
+      delete: "Delete"
+    create:
+      success: "Micropost created!"
+    destroy:
+      success: "Micropost deleted"
+      fail: "Deleted fail"
+    correct_user:
+      invalid: "Micropost invalid"

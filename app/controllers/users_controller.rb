@@ -5,14 +5,17 @@ class UsersController < ApplicationController
   before_action :admin_user, only: :destroy
 
   def index
-    @pagy, @users = pagy(User.all, items: Settings.page_item)
+    @pagy, @users = pagy User.all, items: Settings.settings.page_item
   end
 
   def new
     @user = User.new
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy @user.microposts,
+                              items: Settings.settings.page_item
+  end
 
   def edit; end
 
@@ -23,7 +26,7 @@ class UsersController < ApplicationController
       flash[:info] = t "please_check_email"
       redirect_to root_path
     else
-      flash[:danger] = t "sign_fail"
+      flash.now[:danger] = t "sign_fail"
       render :new
     end
   end
@@ -44,6 +47,7 @@ class UsersController < ApplicationController
   end
 
   private
+
   def user_params
     params.require(:user).permit User::PROPERTIES
   end
