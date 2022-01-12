@@ -20,3 +20,4 @@ settings:
   image_type: ["image/jpeg", "image/gif", "image/png"]
   max_image_size: 5
   resize_images: 500
+  avatar_smaller: 30

@@ -92,6 +92,17 @@ vi:
       title: "Tất cả người dùng"
     show:
       micropost: "Bài viết"
+    following:
+      title: "Theo dõi"
+    followers:
+      title: "Người theo dõi"
+    follow:
+      submit: "Theo dõi"
+    unfollow:
+      submit: "Bỏ theo dõi"
+    show_follow:
+      profile: "Xem hồ sơ"
+      micro: "Số bài viết:"
 
   error:
     error_valid: "Hiện đang có %{error}"
@@ -135,6 +146,9 @@ vi:
     user_info:
       view: "Xem hồ sơ của tôi"
       micropost: "Bài viết"
+    stats:
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
   
   microposts:
     micropost:
