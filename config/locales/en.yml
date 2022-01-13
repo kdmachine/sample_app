@@ -29,6 +29,8 @@ en:
   reset_failed: "Reset failed"
   invalid_format: "must be a valid image format"
   large_size: "should be less than 5MB"
+  following: "Following"
+  follower: "Followers"
 
   layouts:
     header:
@@ -92,6 +94,17 @@ en:
       title: "All users"
     show:
       micropost: "Microposts"
+    following:
+      title: "Following"
+    followers:
+      title: "Followers"
+    follow:
+      submit: "Follow"
+    unfollow:
+      submit: "Unfollow"
+    show_follow:
+      profile: "view my profile"
+      micro: "Microposts:"
 
   error:
     error_valid: "The form contains %{error}"
@@ -135,6 +148,9 @@ en:
     user_info:
       view: "view my profile"
       micropost: "micropost"
+    stats:
+      following: "Following"
+      followers: "Followers"
 
   microposts:
     micropost:
